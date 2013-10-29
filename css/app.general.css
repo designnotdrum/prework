@@ -1,0 +1,60 @@
+html {
+	height: 100%;
+}
+body {
+	/*padding-top: 40px;
+	padding-bottom: 40px;*/
+	background: #333 url('../../assets/subtlepatterns/white_carbonfiber.png') repeat;
+
+	background-color: rgba(74,121,147,0.89);
+	/*background: radial-gradient(farthest-side ellipse at 10% 0, 
+				rgba(51,51,51,0.85),
+				rgba(255,255,255,0.38) 60%,
+				rgba(151,151,151,0.76) 120%),
+				url("../../assets/subtlepatterns/white_carbonfiber.png");
+	background: -webkit-radial-gradient(10% 0, farthest-side ellipse, 
+				rgba(51,51,51,0.85),
+				rgba(255,255,255,0.38) 60%,
+				rgba(151,151,151,0.76) 120%),
+				url("../../assets/subtlepatterns/white_carbonfiber.png");
+	background: -moz-radial-gradient(10% 0, farthest-side ellipse, 
+				rgba(51,51,51,0.85),
+				rgba(255,255,255,0.38) 60%,
+				rgba(151,151,151,0.76) 120%),
+				url("../../assets/subtlepatterns/white_carbonfiber.png");*/
+
+	background: rgb(73,155,234); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(73,155,234,.65) 0%, rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(73,155,234,.65)), color-stop(100%,rgba(32,124,229,.65))),url("../assets/subtlepatterns/white_carbonfiber.png"); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  rgba(73,155,234,.65) 0%,rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  rgba(73,155,234,.65) 0%,rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  rgba(73,155,234,.65) 0%,rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* IE10+ */
+background: linear-gradient(135deg,  rgba(73,155,234,.65) 0%,rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+	display: -webkit-box;
+   	display: -moz-box;      
+   	display: -ms-flexbox;   
+   	display: -webkit-flex;  
+   	display: flex;          
+
+   	-webkit-box-align: center; -moz-box-align: center; 
+   	-ms-flex-align: center; 
+   	-webkit-align-items: center;
+   	align-items: center;
+
+   	-webkit-box-pack: center; -moz-box-pack: center; 
+   	-ms-flex-pack: center; 
+   	-webkit-justify-content: center;
+   	justify-content: center;
+
+   	margin: 0;
+   	height: 100%;
+   	width: 100%;
+}
+
+#mask {
+	opacity: 0;
+	background: ;
+}
