@@ -24,8 +24,8 @@ body {
 				url("../../assets/subtlepatterns/white_carbonfiber.png");*/
 
 	background: rgb(73,155,234); /* Old browsers */
-background: -moz-linear-gradient(-45deg,  rgba(73,155,234,.65) 0%, rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(73,155,234,.65)), color-stop(100%,rgba(32,124,229,.65))),url("../assets/subtlepatterns/white_carbonfiber.png"); /* Chrome,Safari4+ */
+background: -moz-linear-gradient(-45deg,  rgba(73,155,234,.45) 0%, rgba(32,124,229,.45) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(73,155,234,.45)), color-stop(100%,rgba(32,124,229,.45))),url("../assets/subtlepatterns/white_carbonfiber.png"); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(-45deg,  rgba(73,155,234,.65) 0%,rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* Chrome10+,Safari5.1+ */
 background: -o-linear-gradient(-45deg,  rgba(73,155,234,.65) 0%,rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* Opera 11.10+ */
 background: -ms-linear-gradient(-45deg,  rgba(73,155,234,.65) 0%,rgba(32,124,229,.65) 100%),url("../assets/subtlepatterns/white_carbonfiber.png"); /* IE10+ */
