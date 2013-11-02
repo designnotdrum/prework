@@ -72,3 +72,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4096ee', end
 	font-size: 124px;
 	line-height: 150px;
 }
+
+.staticLeftNav {
+	position: absolute;
+	top:52px;
+	left: 0;
+	bottom: 0;
+	width: 220px;
+	background: rgba(100,100,100,1);
+}
+
+#mainWindow {
+
+}
