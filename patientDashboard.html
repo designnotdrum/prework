@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>myBlueButton - Client Dashboard</title>
+	<title>Formation - Client Dashboard</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/bootstrap2.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/app.general.css">
@@ -20,8 +20,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">myBlueButton</a>
-          <span class="pull-right hidden-phone hidden-tablet">Hi, Joe User</span>
+          <a class="brand" href="#">Formation</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li><a href="#">My Meds</a></li>
@@ -38,12 +37,33 @@
     </div><!-- /navbar -->
 
     <div class="staticLeftNav hidden-tablet hidden-phone">
+      <div id="profile">
+        <img src="personas/ww2_joe_thumb.png" alt="Mary">
+        <div class="text">
+          <p>
+            <h5>Joe Wagner</h5>
+            <span>Veteran: Army</span><br>
+            <span>DOB: 03/01/1948</span>
+          </p>
+          <p>
+            <span><strong>Vital Statistics</strong> - <a href='#' id="vitaltrend">Trend</a></span><br>
+            <span>Blood Type: AB+</span><br>
+            <span>Cholesterol: 6.1</span> - <a href='#' id="ctrend">Trend</a><br>
+            <span>Blood Pressure: 120/80</span> - <a href='#' id="bptrend">Trend</a>
+          </p>
+          <a href='#'>See All Details</a>
+        </div>
+        
+      </div>
       <div id="nav" class="hidden-tablet hidden-phone">
-          <ul class="nav nav-list">
-            <li class="active"><a href="#"><i class="icon-home icon-white"></i> Home</a></li>
-            <li><a href="#"><i class="icon-book"></i> Library</a></li>
-            <li><a href="#"><i class="icon-pencil"></i> Applications</a></li>
-            <li><a href="#"><i class="i"></i> Misc</a></li>
+          <ul class="nav nav-pills nav-stacked">
+              <li><a href="#"><i class='icon-home'></i>   Home</a></li>
+              <li><a href="#">My Meds</a></li>
+              <li><a href="#">Treatment Plans</a></li>
+              <li><a href="#">Allergies</a></li>
+              <li><a href="#">Encounters</a></li>
+              <li><a href="#">Immunizations</a></li>
+              <li><a href="#">Labs</a></li>
           </ul>
       </div>
     </div>
@@ -213,5 +233,18 @@
 
   <script src="http://code.jquery.com/jquery.js"></script>
   <script src="assets/bootstrap2.3.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+
+      $('#vitaltrend').popover({
+        
+        content : '<img src="assets/sparklines.gif" alt="Vitals" width="269" height="104" />', 
+        
+        html : true
+
+      });
+      
+    });
+  </script>
 </body>
 </html>
