@@ -22,13 +22,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', end
    	width: 100%;
 }
 
-#mask {
-	opacity: 0;
-	background: ;
-}
-
 .navbar {
-	font-size: 1rem;
+	/*font-size: 1rem;*/
 }
 .brand {
 	line-height: 1.5em;
